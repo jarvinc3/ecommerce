@@ -1,5 +1,5 @@
 import { BagIcon } from "../../utils/icons/Bag"
-import { Menu } from "../../utils/icons/Menu"
+import { Menu } from "../../utils/icons/nav-icons/Menu"
 import { NavBarSearch } from "./NavBarSearch"
 
 export const Nav = () => {

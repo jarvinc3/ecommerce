@@ -1,4 +1,4 @@
-import Categories from "../components/common/categories/Categories"
+import { Categories } from "../components/common/categories/Categories"
 import { MainLayout } from "../components/layouts/MainLayout"
 
 export const Home = () => {

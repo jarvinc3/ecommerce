@@ -1,5 +1,5 @@
-import { Search } from "../../utils/icons/Search"
-import { Filter } from '../../utils/icons/Filter';
+import { Search } from "../../utils/icons/nav-icons/Search"
+import { Filter } from '../../utils/icons/nav-icons/Filter';
 
 
 export const NavBarSearch = () => {

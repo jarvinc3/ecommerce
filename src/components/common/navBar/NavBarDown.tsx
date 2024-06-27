@@ -1,5 +1,5 @@
 import { HomeIcon } from "../../utils/icons/HomeIcon"
-import { Menu } from "../../utils/icons/Menu"
+import { Menu } from "../../utils/icons/nav-icons/Menu"
 import { Profile } from "../../utils/icons/Profile"
 
 export const NavBarDown = () => {
