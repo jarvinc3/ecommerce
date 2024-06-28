@@ -1,9 +1,13 @@
 
 
-export const Tshirt = () => {
+interface ShortsProps {
+    width?: string;
+}
+
+export const Tshirt = ({ width = 'w-10 h-10 md:w-20 md:h-20' }: ShortsProps) => {
     return (
         <svg
-            className="w-10 h-10 md:w-20 md:h-20 fill-black dark:fill-gray-200"
+            className={` fill-black dark:fill-white ${width}`}
             width="161px"
             height="161px"
             viewBox="0 -64 640 640"

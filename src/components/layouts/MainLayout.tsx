@@ -8,13 +8,13 @@ interface MainLayoutProps {
 export const MainLayout = ({ children }: MainLayoutProps) => {
     return (
         <div className="relative w-screen h-screen px-3 pt-24 md:px-11">
-            <div className="">
+            <div className="z-50">
                 <Nav />
             </div>
 
-            {children}
+            <div className="z-[-1]">{children}</div>
 
-            <div className="md:hidden">
+            <div className="z-50 md:hidden">
                 <NavBarDown />
             </div>
         </div>

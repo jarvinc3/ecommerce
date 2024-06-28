@@ -1,14 +1,20 @@
 
 interface BagProps {
-    cart: number
+    cart?: number;
+    add?: string;
 }
 
-export const BagIcon = ({ cart }: BagProps) => {
+export const BagIcon = ({ cart = 0, add }: BagProps) => {
     return (
         <div className="relative w-12 h-12 cursor-pointer">
-            {cart > 0 &&
+            {cart > 1 &&
                 <div className="absolute flex items-center justify-center w-5 h-5 text-white bg-black rounded-full md:font-bold dark:bg-slate-50 right-1 top-2 dark:text-gray-900">
-                    {cart > 9 ? <h2 className="flex items-start justify-center text-sm">9<span className="text-xs">+</span></h2> : cart}
+                    {cart > 9 ? <h2 className="flex items-start justify-center text-sm">9<span className="md:text-xs font-bold text-[10px]">+</span></h2> : cart}
+                </div>
+            }
+            {add &&
+                <div className="absolute flex items-center justify-center w-5 h-5 text-white bg-black rounded-full md:font-bold dark:bg-slate-50 right-1 top-2 dark:text-gray-900">
+                    <h2 className="flex items-start justify-center text-sm">{add}</h2>
                 </div>
             }
             <svg
