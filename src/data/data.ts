@@ -1,3 +1,5 @@
+export const cartData = [];
+
 export const data = [
     {
         id: 1,

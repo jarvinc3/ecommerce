@@ -28,20 +28,20 @@ export const Categories = () => {
         <div className="flex flex-col w-full gap-4">
             <div
                 onClick={() => setOpen(!open)}
-                className="transition-all md:absolute cursor-pointer md:rotate-90 duration-300 hover:scale-105 active:scale-100 flex justify-center md:-left-[105px] top-[73px] items-center h-4 px-8 py-5 border-top bg-slate-200 dark:bg-[#474747]"
+                className="transition-all duration-300 md:absolute cursor-pointer md:rotate-90 hover:scale-105 active:scale-100 flex justify-center md:-left-[105px] top-[73px] items-center h-4 px-8 py-5 border-top bg-slate-200 dark:bg-[#474747]"
             >
-                <h2 className="text-center md:text-xl">Categorias</h2>
+                <h2 className="text-center transition-all duration-300 md:text-xl dark:text-white text-slate-900 ">Categorias</h2>
             </div>
             <AnimatePresence>
                 {open && (
-                    <ul className="grid w-full grid-cols-4 gap-4 links-container md:ml-4 md:grid-cols-8">
+                    <ul className="grid w-full grid-cols-4 gap-4 links-container md:ml-4 md:grid-cols-8 dark:text-white text-slate-900">
                         {categoriesList.map((category, index) => (
                             <motion.li
                                 key={index}
                                 onClick={() => setCategories(index)}
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 1 }}
-                                className={`w-full cursor-pointer py-2 md:py-4 rounded-xl flex items-center flex-col gap-2 ${index === categories
+                                className={`w-full transition-all duration-300 cursor-pointer py-2 md:py-4 rounded-xl flex items-center flex-col gap-2 ${index === categories
                                     ? " md:bg-slate-300 md:dark:bg-[#474747] border-y-2 border-slate-300 dark:border-[#474747] md:border-none scale-105"
                                     : " md:bg-slate-200 md:dark:bg-[#313131]"
                                     }`}

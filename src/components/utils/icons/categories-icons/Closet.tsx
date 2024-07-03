@@ -3,7 +3,7 @@
 export const Closet = () => {
     return (
         <svg
-            className="w-10 h-10 md:w-20 md:h-20 stroke-black dark:stroke-gray-200"
+            className="w-10 h-10 transition-all duration-300 md:w-20 md:h-20 stroke-black dark:stroke-gray-200"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
             xmlSpace="preserve"

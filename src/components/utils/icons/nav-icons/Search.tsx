@@ -10,7 +10,7 @@ export const Search = () => {
             viewBox="0 0 20 20"
         >
             <path
-                className="stroke-gray-600 dark:stroke-gray-200"
+                className="transition-all duration-300 stroke-gray-600 dark:stroke-gray-200"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}

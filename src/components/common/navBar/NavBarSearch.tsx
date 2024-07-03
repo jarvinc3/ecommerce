@@ -19,7 +19,7 @@ export const NavBarSearch = () => {
                     <input
                         type="search"
                         id="default-search"
-                        className="block w-full p-4 text-sm text-gray-900 border border-gray-300 outline-none rounded-xl ps-10 bg-slate-100 dark:bg-[#313131] focus:ring-slate-500 focus:border-slate-500 dark:placeholder-gray-400 dark:text-white"
+                        className="block w-full p-4 text-sm text-gray-900 border border-gray-300 outline-none rounded-xl transition-all duration-300  ps-10 bg-slate-100 dark:bg-[#313131] focus:ring-slate-500 focus:border-slate-500 dark:placeholder-gray-400 dark:text-white"
                         placeholder="Buscar"
                     />
                     <div className="absolute inset-y-0 flex items-center cursor-pointer end-2 pe-3">

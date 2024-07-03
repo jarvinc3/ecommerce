@@ -7,7 +7,7 @@ interface ShortsProps {
 export const Tshirt = ({ width = 'w-10 h-10 md:w-20 md:h-20' }: ShortsProps) => {
     return (
         <svg
-            className={` fill-black dark:fill-white ${width}`}
+            className={` transition-all duration-300 fill-black dark:fill-white ${width}`}
             width="161px"
             height="161px"
             viewBox="0 -64 640 640"

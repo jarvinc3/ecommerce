@@ -6,7 +6,7 @@ interface BagProps {
 export const Shorts = ({ width = 'w-10 h-10 md:w-20 md:h-20' }: BagProps) => {
     return (
         <svg
-            className={` fill-black dark:fill-white ${width}`}
+            className={` transition-all duration-300 fill-black dark:fill-white ${width}`}
             viewBox="0 0 1000 1000"
             xmlns="http://www.w3.org/2000/svg">
             <path
