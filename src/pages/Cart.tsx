@@ -17,7 +17,7 @@ export const Cart = () => {
             </section>
             <section className="w-full h-full p-5 my-20">
                 <CartComponent />
-            </section>
+            </section> 
             <div className="fixed bottom-0 flex justify-between w-full gap-4 p-3 -translate-x-1/2 left-1/2 bg-white z-50 dark:bg-[#242424] transition-all duration-300 ">
                 
                 <button className="p-2 rounded-xl dark:bg-slate-400 bg-[#313131] w-full dark:text-black text-white text-xl font-medium" type="button">Comprar ahora</button>
