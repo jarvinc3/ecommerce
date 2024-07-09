@@ -9,19 +9,23 @@ import { Tshirt } from "../../../utils/icons/categories-icons/Tshirt";
 import { Waffit } from "../../../utils/icons/categories-icons/Waffit";
 import { SetsIcon } from "../../../utils/icons/categories-icons/SetsIcon";
 
-export const Categories = () => {
+interface CategoriesProps { 
+    setFilter: (category: string) => void
+}
+
+export const Categories = ({ setFilter }: CategoriesProps) => {
     const [open, setOpen] = useState(true);
     const [categories, setCategories] = useState<number>(0);
 
     const categoriesList = [
-        { name: "Todos", icon: <Closet /> },
-        { name: "Hoodies", icon: <Hoodie /> },
-        { name: "Sweater", icon: <Sweater /> },
-        { name: "T-Shirts", icon: <Tshirt /> },
-        { name: "Waffit", icon: <Waffit /> },
-        { name: "Combi", icon: <Combined /> },
-        { name: "Shorts", icon: <Shorts /> },
-        { name: "Conjuntos", icon: <SetsIcon /> },
+        { name: "Todos", value: '', icon: <Closet /> },
+        { name: "Hoodies", value: 'Hoodies' , icon: <Hoodie /> },
+        { name: "Sweater", value: 'Sweater', icon: <Sweater /> },
+        { name: "T-Shirts", value: 'T-Shirts', icon: <Tshirt /> },
+        { name: "Waffit", value: 'Waffit', icon: <Waffit /> },
+        { name: "Combi", value: 'Combinados', icon: <Combined /> },
+        { name: "Shorts", value: 'Shorts', icon: <Shorts /> },
+        { name: "Conjuntos", value: 'Conjuntos', icon: <SetsIcon /> },
     ];
 
     return (
@@ -40,7 +44,10 @@ export const Categories = () => {
                             <li className="w-full h-full">
                                 <motion.li
                                     key={index}
-                                    onClick={() => setCategories(index)}
+                                    onClick={() => {
+                                        setCategories(index);
+                                        setFilter(category.value);
+                                    }}
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 1 }}
                                     className={`w-full h-full transition-all duration-300 cursor-pointer py-2 md:py-4 rounded-xl justify-between flex items-center flex-col gap-2 ${index === categories
