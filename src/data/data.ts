@@ -7,7 +7,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "39.99",
         description: "A warm and cozy hoodie perfect for chilly days.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "49.99",
         description: "A stylish sweater that goes with any outfit.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "19.99",
         description: "A comfortable t-shirt for everyday wear.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "59.99",
         description: "A trendy waffit perfect for a casual look.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "69.99",
         description: "A stylish combined set for a complete look.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "29.99",
         description: "Comfortable sports shorts for active days.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 7,
@@ -55,7 +55,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "79.99",
         description: "A casual conjunto for a relaxed style.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 8,
@@ -63,7 +63,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "42.99",
         description: "An urban style hoodie for a cool look.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 9,
@@ -71,7 +71,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "55.99",
         description: "An elegant sweater for special occasions.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 10,
@@ -79,7 +79,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "25.99",
         description: "A graphic t-shirt with a unique design.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 11,
@@ -87,7 +87,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "63.99",
         description: "A cool waffit for a laid-back style.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 12,
@@ -95,7 +95,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "72.99",
         description: "A chic combined set for a fashionable look.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 13,
@@ -103,7 +103,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "34.99",
         description: "Lightweight shorts for summer days.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 14,
@@ -111,7 +111,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "82.99",
         description: "A sporty conjunto for active lifestyles.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 15,
@@ -119,7 +119,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "45.99",
         description: "A street style hoodie for a trendy look.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 16,
@@ -127,7 +127,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "52.99",
         description: "A cozy sweater for a warm feel.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 17,
@@ -135,7 +135,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "17.99",
         description: "A plain t-shirt for a minimalist look.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 18,
@@ -143,7 +143,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "58.99",
         description: "A stylish waffit for a modern outfit.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 19,
@@ -151,7 +151,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "74.99",
         description: "An elegant combined set for a chic look.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 20,
@@ -159,7 +159,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "27.99",
         description: "Beach shorts perfect for summer.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 21,
@@ -167,7 +167,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "77.99",
         description: "A relaxed conjunto for comfort.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 22,
@@ -175,7 +175,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "47.99",
         description: "A vintage style hoodie for a retro look.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 23,
@@ -183,7 +183,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "59.99",
         description: "A warm sweater for winter days.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 24,
@@ -191,7 +191,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "22.99",
         description: "A funky t-shirt with a bold design.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 25,
@@ -199,7 +199,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "65.99",
         description: "A sport waffit for active wear.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 26,
@@ -207,7 +207,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "68.99",
         description: "An urban combined set for a modern look.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 27,
@@ -215,7 +215,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "31.99",
         description: "Casual shorts for everyday wear.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 28,
@@ -223,7 +223,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "84.99",
         description: "A formal conjunto for special occasions.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 29,
@@ -231,7 +231,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "49.99",
         description: "A trendy hoodie for a cool look.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 30,
@@ -239,7 +239,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "57.99",
         description: "A sporty sweater for active days.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 31,
@@ -247,7 +247,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "21.99",
         description: "A t-shirt perfect for summer days.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 32,
@@ -255,7 +255,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "60.99",
         description: "An elegant waffit for special occasions.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 33,
@@ -263,7 +263,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "73.99",
         description: "A classic combined set for everyday wear.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 34,
@@ -271,7 +271,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "32.99",
         description: "Denim shorts for a casual look.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 35,
@@ -279,7 +279,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "79.99",
         description: "A conjunto perfect for the beach.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 36,
@@ -287,7 +287,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "44.99",
         description: "A casual hoodie for everyday wear.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 37,
@@ -295,7 +295,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "53.99",
         description: "A trendy sweater for a fashionable look.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 38,
@@ -303,7 +303,7 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "23.99",
         description: "A retro t-shirt with a unique design.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
     {
         id: 39,
@@ -311,7 +311,7 @@ export const data = [
         image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
         price: "62.99",
         description: "A modern waffit for a stylish look.",
-        type: "Waffit",
+        category: "Waffit",
     },
     {
         id: 40,
@@ -319,7 +319,7 @@ export const data = [
         image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
         price: "75.99",
         description: "A fashionable combined set for a trendy look.",
-        type: "Combinados",
+        category: "Combinados",
     },
     {
         id: 41,
@@ -327,7 +327,7 @@ export const data = [
         image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
         price: "30.99",
         description: "Sporty shorts for active wear.",
-        type: "Shorts",
+        category: "Shorts",
     },
     {
         id: 42,
@@ -335,7 +335,7 @@ export const data = [
         image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
         price: "81.99",
         description: "An evening conjunto for special occasions.",
-        type: "Conjuntos",
+        category: "Conjuntos",
     },
     {
         id: 43,
@@ -343,7 +343,7 @@ export const data = [
         image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
         price: "46.99",
         description: "A chic hoodie for a stylish look.",
-        type: "Hoodies",
+        category: "Hoodies",
     },
     {
         id: 44,
@@ -351,7 +351,7 @@ export const data = [
         image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
         price: "51.99",
         description: "A classic sweater for a timeless look.",
-        type: "Sweater",
+        category: "Sweater",
     },
     {
         id: 45,
@@ -359,6 +359,6 @@ export const data = [
         image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
         price: "20.99",
         description: "A casual t-shirt for everyday wear.",
-        type: "T-Shirts",
+        category: "T-Shirts",
     },
 ]

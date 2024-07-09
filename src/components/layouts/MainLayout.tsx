@@ -7,12 +7,12 @@ interface MainLayoutProps {
 
 export const MainLayout = ({ children }: MainLayoutProps) => {
     return (
-        <div className="relative bg-white transition-all duration-300 dark:bg-[#242424] w-screen px-3 pt-24 md:px-11">
-            <div className="z-50">
+        <div className="relative bg-white transition-all duration-300 dark:bg-[#242424] w-screen h-screen px-3 overflow-hidden">
+            <div className="z-50 h-[12%]">
                 <Nav />
             </div>
 
-            <div className="z-[-1]">{children}</div>
+            <div className="z-[-1] h-[88%]">{children}</div>
 
             <div className="z-50 md:hidden">
                 <NavBarDown />
