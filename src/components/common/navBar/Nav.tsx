@@ -4,7 +4,12 @@ import { Menu } from "../../utils/icons/nav-icons/Menu"
 import { NavBarSearch } from "./NavBarSearch"
 import { useNavigate } from "react-router-dom"
 
-export const Nav = () => {
+interface Props {
+    open: boolean
+    setOpen: (open: boolean) => void
+}
+
+export const Nav =  ({ open, setOpen }: Props) => {
     const navigate = useNavigate()
     const [darkMode, setDarkMode] = useState<boolean>(() => {
         return localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -41,7 +46,7 @@ export const Nav = () => {
                 <div onClick={() => navigate("/carrito")} className="cursor-pointer">
                     <BagIcon cart={12} />
                 </div>
-                <div className="hidden md:block"><Menu /></div>
+                <div className="hidden md:block" onClick={() => setOpen(!open)}><Menu open={open} /></div>
             </div>
         </div>
     )

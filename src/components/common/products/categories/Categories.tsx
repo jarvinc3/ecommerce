@@ -41,9 +41,8 @@ export const Categories = ({ setFilter }: CategoriesProps) => {
                     <ul className="grid w-full grid-cols-4 gap-4 links-container xl:grid-cols-1 dark:text-white text-slate-900">
 
                         {categoriesList.map((category, index) => (
-                            <li className="w-full h-full">
+                            <div className="w-full h-full" key={category.value}>
                                 <motion.li
-                                    key={index}
                                     onClick={() => {
                                         setCategories(index);
                                         setFilter(category.value);
@@ -62,7 +61,7 @@ export const Categories = ({ setFilter }: CategoriesProps) => {
                                     {category.icon}
                                     <h2 className="text-center">{category.name}</h2>
                                 </motion.li>
-                            </li>
+                            </div>
                         ))}
                     </ul>
                 )}

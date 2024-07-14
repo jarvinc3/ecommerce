@@ -1,4 +1,61 @@
-export const cartData = [];
+export const cartData = [
+    {
+        id: 1,
+        name: "Hoodie Comfort",
+        image: "https://inyourshoe.com/cdn/shop/products/white-hoodie-plain-hoodies-in-your-shoe-879927.jpg?v=1668057935",
+        price: "39.99",
+        description: "A warm and cozy hoodie perfect for chilly days.",
+        category: "Hoodies",
+    },
+    {
+        id: 2,
+        name: "Sweater Classic",
+        image: "https://equus.vtexassets.com/arquivos/ids/226875-500-auto?v=637813129029730000&width=500&height=auto&aspect=true",
+        price: "49.99",
+        description: "A stylish sweater that goes with any outfit.",
+        category: "Sweater",
+    },
+    {
+        id: 3,
+        name: "T-Shirt Basic",
+        image: "https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-men/default/dw9c83c6aa/3611220/3611220-01-2.jpg?sw=640&sh=960&sm=fit",
+        price: "19.99",
+        description: "A comfortable t-shirt for everyday wear.",
+        category: "T-Shirts",
+    },
+    {
+        id: 4,
+        name: "Waffit Trendy",
+        image: "https://confeccionesboston.com/cdn/shop/products/POLOWAFFLEDAMABLANCO.jpg?v=1626200794&width=1445",
+        price: "59.99",
+        description: "A trendy waffit perfect for a casual look.",
+        category: "Waffit",
+    },
+    {
+        id: 5,
+        name: "Combined Set",
+        image: "https://img.ltwebstatic.com/images3_pi/2022/07/11/165752849148cf72c893370f90db96fdfab83fc6a7_thumbnail_750x.webp",
+        price: "69.99",
+        description: "A stylish combined set for a complete look.",
+        category: "Combinados",
+    },
+    {
+        id: 6,
+        name: "Shorts Sport",
+        image: "https://m.media-amazon.com/images/I/71hn9XWIQCL._AC_UY1000_.jpg",
+        price: "29.99",
+        description: "Comfortable sports shorts for active days.",
+        category: "Shorts",
+    },
+    {
+        id: 7,
+        name: "Conjunto Casual",
+        image: "https://i.pinimg.com/736x/de/e3/c6/dee3c610054b9e03d990dcba1a4d8083.jpg",
+        price: "79.99",
+        description: "A casual conjunto for a relaxed style.",
+        category: "Conjuntos",
+    },
+];
 
 export const data = [
     {
