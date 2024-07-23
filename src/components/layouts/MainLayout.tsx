@@ -23,8 +23,9 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
                     <NavBarDown open={open} setOpen={setOpen} />
                 </div>
             </div>
-            <div onClick={() => setOpen(!open)} className={`absolute flex justify-end top-0 md:top-[125px] h-[93.5vh] md:bottom-0 left-0 w-screen md:h-[88vh] xl:h-[86vh] overflow-hidden transition-all duration-300 ${open ? " bg-[#0000006e] z-[90]" : "z-[-10]"} `}>
-                <SideBar open={open} />
+            <div className={`absolute flex justify-end top-0 h-[93.5vh] md:bottom-0 left-0 w-screen md:h-[100vh] overflow-hidden transition-all duration-300 ${open ? " bg-[#0000006e] z-[90]" : "z-[-10]"} `}>
+                <div onClick={() => setOpen(!open)} className="xl:w-[75%] md:w-[60%] w-[40%] h-full"></div>
+                <SideBar open={open} setOpen={setOpen} />
             </div>
         </div>
     )

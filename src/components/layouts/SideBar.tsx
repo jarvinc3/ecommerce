@@ -1,12 +1,30 @@
 
 interface IProps {
    open: boolean
+   setOpen: (open: boolean) => void
 }
 
-export const SideBar = ({ open }: IProps) => {
+export const SideBar = ({ open, setOpen }: IProps) => {
 
    return (
-      <div className={`xl:w-3/12 md:w-2/5 w-3/5 transition-all duration-300 bg-white dark:bg-[#242424] h-full py-4 overflow-y-auto ${open ? "translate-x-0" : "translate-x-[100%]"}`}>
+      <div className={`xl:w-3/12 md:w-2/5 w-3/5 z-[200] transition-all duration-300 bg-white dark:bg-[#242424] h-full py-4 overflow-y-auto ${open ? "translate-x-0" : "translate-x-[100%]"}`}>
+         <div className="flex items-center justify-between px-3 py-5 pb-8"> 
+            <p className="text-2xl font-bold text-black dark:text-white">Menu</p>
+            <svg 
+               onClickCapture={() => setOpen(false)}
+               xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               strokeWidth={1.5}
+               className="transition-all duration-300 cursor-pointer w-7 h-7 dark:stroke-white stroke-black fill-black dark:fill-white"
+               onClick={() => open ? open = false : open = true}
+            >
+               <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+               />
+            </svg>
+         </div>
          <ul className="space-y-2 font-medium">
             <li>
                <a className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">

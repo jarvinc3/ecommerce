@@ -6,7 +6,7 @@ export const CartComponent = () => {
     const [checked, setChecked] = useState<boolean>(true)
     return (
         <div className="relative bg-white dark:bg-[#242424] transition-all duration-300 flex xl:flex-row gap-5 flex-col justify-start xl:px-48 w-full">
-            <section className="w-full xl:w-3/5 xl:bg-[#f1f5f9] xl:p-2 xl:px-3 rounded-xl xl:dark:bg-[#303030] xl:border xl:dark:border-none transition-all duration-300">
+            <section className="w-full xl:h-[87vh] xl:w-3/5 xl:bg-[#f1f5f9] xl:p-2 xl:px-3 rounded-xl xl:dark:bg-[#303030] xl:border xl:dark:border-none transition-all duration-300">
                 <div className="flex items-center justify-start w-full gap-5 pb-3 border-b">
                     <div className="flex items-center justify-start w-[55%] md:w-auto gap-2">
                         <label htmlFor="checkbox" className={`relative h-6 w-6 transition-all duration-300 cursor-pointer rounded-full dark:text-white text-[#313131] border-2 border-[#313131] dark:border-white ${checked ? ' bg-[#313131] dark:bg-white' : ''}`}> .
@@ -42,11 +42,15 @@ export const CartComponent = () => {
                         <h2 className="font-medium text-black cursor-pointer text-font-medium dark:text-white">Eliminar todos</h2>
                     </div>
                 </div>
-                <div className="h-[80vh] xl:h-[83vh] overflow-y-scroll custom-scrollbar ">
+                <div className="h-[80vh] xl:h-[79vh] overflow-y-scroll custom-scrollbar ">
                     <CartProducts checked={checked} setChecked={setChecked} />
                 </div>
             </section>
             <section className="fixed xl:relative xl:w-2/5 bottom-0 flex flex-col items-center justify-start w-full border xl:h-[100%] gap-4 p-3 -translate-x-1/2 xl:translate-x-0 xl:left-0 xl:p-3 rounded-xl left-1/2 xl:bg-[#f1f5f9] bg-white z-50 dark:bg-[#242424] xl:dark:bg-[#303030] transition-all duration-300 ">
+                <div className="items-center justify-between hidden w-full gap-5 pb-3 xl:flex ">
+                    <p className="text-xl font-medium text-black dark:text-white">Subtotal:</p>
+                    <h2 className="text-xl font-medium text-black dark:text-white">$500</h2>
+                </div>
                 <form className="flex items-center justify-between w-full bg-slate-50 shadow-lg dark:bg-[#313131] rounded-lg">
                     <input
                         type="text"
@@ -55,10 +59,6 @@ export const CartComponent = () => {
                     />
                     <button type="button" className="dark:bg-slate-400 bg-[#313131] p-3 rounded-tr-lg rounded-br-lg text-white font-semibold transition-colors">Aplicar</button>
                 </form>
-                <div className="items-center justify-between hidden w-full gap-5 pb-3 xl:flex ">
-                    <p className="text-xl font-medium text-black dark:text-white">Subtotal:</p>
-                    <h2 className="text-xl font-medium text-black dark:text-white">$500</h2>
-                </div>
                 <div className="items-center justify-between hidden w-full gap-5 pb-3 xl:flex ">
                     <p className="text-xl font-medium text-black dark:text-white">Descuento:</p>
                     <h2 className="text-xl font-medium text-black dark:text-white">$00</h2>
