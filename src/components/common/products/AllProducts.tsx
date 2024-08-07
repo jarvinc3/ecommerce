@@ -24,11 +24,11 @@ export const AllProducts = ({ filter }: AllProductsProps) => {
     }, [filter]);
 
     return (
-        <div className="flex flex-wrap justify-center w-full gap-4 bg-white dark:bg-[#242424] transition-all duration-300 pb-36 ">
+        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 w-full gap-5 bg-white dark:bg-[#242424] transition-all duration-300 pb-36 ">
             {dataFiltered.map((product) => (
-                <section key={product.id} onClick={() => Navigate(product.id)} className="flex w-[47%] md:w-[23%] xl:w-[18%] flex-col dark:text-white text-slate-900 gap-3 transition-all duration-300 cursor-pointer hover:scale-[1.02] active:scale-100">
-                    <div className="w-36 md:w-auto rounded-xl">
-                        <img className="w-full rounded-xl" src={product.image} alt="clothes image" />
+                <section key={product.id} onClick={() => Navigate(product.id)} className="flex flex-col h-auto justify-start dark:text-white text-slate-900 gap-3 transition-all duration-300 cursor-pointer hover:scale-[1.02] active:scale-100">
+                    <div className="rounded-xl">
+                        <img className="z-[-1] w-full rounded-xl aspect-square" src={product.image} alt="clothes image" />
                     </div>
                     <div className="flex items-start justify-between">
                         <div className="flex flex-col gap-1">
